@@ -19,9 +19,17 @@ To set up the app, follow these steps:
 
 ### Admin User
 
-An "admin" user is required for full access to user management functions, including the ability to add, remove, or retrieve user information.
+An "admin" user has full access to user management functions, including:
+
+- Adding new users
+- Removing existing users
+- Retrieving user information
+- Managing user roles and permissions
 
 ### Normal Users
 
-Normal users have limited access and are only able to view the home page of the application.
+Normal users have restricted access and are able to:
+
+- View the home page
+- Log in and log out
    
