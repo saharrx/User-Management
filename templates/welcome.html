@@ -1,0 +1,9 @@
+{% extends 'base.html'%}
+
+<title>{% block title %}welcome{% endblock %}</title>
+
+{% block body %}
+<h1>Welcome To My Website!</h1><br><br>
+<h4><a href="{{url_for('login')}}">Login</a></h4><br>
+<h4><a href="{{url_for('sign_up')}}">Sign Up</a></h4>
+{% endblock %}
