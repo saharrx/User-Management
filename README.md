@@ -11,9 +11,6 @@ To set up the app, follow these steps:
 
    DATABASE_URI=your_database_uri_here
 
-
-Make sure to replace `your_database_uri_here` with the URI of your own database. Remember to keep the `.env` file ignored by Git. Users of your code will need to implement their own database.
-
 3. Install the required dependencies using `pip install -r requirements.txt`.
 
 4. Run the app using `python app.py`.
