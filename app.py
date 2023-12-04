@@ -1,6 +1,5 @@
 import os
 from flask import Flask, render_template, flash, url_for, redirect, session, request, make_response, jsonify
-# from flask_rbac import RBAC, RoleMixin
 from flask_login import UserMixin, login_user, LoginManager, login_required, logout_user
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
