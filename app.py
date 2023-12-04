@@ -21,8 +21,6 @@ app = Flask(__name__)
 
 load_dotenv()
 
-print("hi")
-print("booooo")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('database_uri')
 print(app.config['SQLALCHEMY_DATABASE_URI'])
