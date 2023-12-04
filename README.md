@@ -8,4 +8,22 @@ To set up the app, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Create a `.env` file in the root directory and define the following environment variables:
+   DATABASE_URI=your_database_uri_here
+
+
+Make sure to replace `your_database_uri_here` with the URI of your own database. Remember to keep the `.env` file ignored by Git. Users of your code will need to implement their own database.
+
+3. Install the required dependencies using `pip install -r requirements.txt`.
+
+4. Run the app using `python app.py`.
+
+## User Roles
+
+### Admin User
+
+An "admin" user is required for full access to user management functions, including the ability to add, remove, or retrieve user information.
+
+### Normal Users
+
+Normal users have limited access and are only able to view the home page of the application.
    
